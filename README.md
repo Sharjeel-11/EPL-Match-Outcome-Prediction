@@ -27,6 +27,7 @@ The project emphasises reproducible data preparation, pre-match feature engineer
  │   ├── modeling.py          # temporal split, models and metrics
  │   └── run_analysis.py      # command-line workflow
  ├── tests/
+ │   ├── test_data.py
  │   └── test_features.py
  ├── .gitignore
  └── requirements.txt
