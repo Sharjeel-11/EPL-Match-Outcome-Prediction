@@ -1,0 +1,30 @@
+# Environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Downloaded and generated data
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Generated reports: keep the two README showcase plots, ignore run-specific tables
+reports/*.png
+!reports/outcome_distribution.png
+!reports/test_confusion_matrix.png
+reports/*.csv
+reports/*.json
+!reports/.gitkeep
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Prevent accidental notebook-local copies of generated files
+notebooks/data/
+notebooks/reports/
